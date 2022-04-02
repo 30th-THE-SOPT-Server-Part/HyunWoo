@@ -6,12 +6,10 @@
         "lib": ["es6", "dom"],
         "types": ["reflect-metadata"],
         "strict": true,
+        "moduleResolution": "node",
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true
     },
-    "include": [
-        "src"
-    ],
     "exclude": [
         "node_modules",
         "build",
