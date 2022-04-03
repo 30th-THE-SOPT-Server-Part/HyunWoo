@@ -1,10 +1,10 @@
 name: Lint Checker
 
 on:
-    push:
-        branches: [main, master]
-    pull_request:
-        branch: [main, master]
+  push:
+    branches: [main, master]
+  pull_request:
+    branch: [main, master]
 
 jobs:
   build:
