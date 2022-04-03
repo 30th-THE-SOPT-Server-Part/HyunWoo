@@ -12,10 +12,10 @@
 
 
 */
-let a = 40;
+const a = 40;
 
 function add(a: number, b: number) {
-    let str = (a + b).toString()
+    const str = (a + b).toString()
     console.log(str);
 }
 
