@@ -1,13 +1,7 @@
-import { injectable } from "inversify";
-import Member from "../domain/entity/Member";
+import Member from "../entity/Member";
 
-export interface MemberDataSource {
-    retrieve(): Array<Member>
-}
-
-@injectable()
-export class SoptMemberDataSource implements MemberDataSource {
-    retrieve(): Member[] {
+export default class SoptMember {
+    static retrieve() : Array<Member> {
         return [
             {
                 name: '채정아',
