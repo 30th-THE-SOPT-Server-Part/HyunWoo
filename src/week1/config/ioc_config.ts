@@ -11,7 +11,7 @@ import {
 import DinnerManager from "../domain/interface/DinnerManager";
 import SoptDinnerManager from "../domain/SoptDinnerManager";
 
-let container = new Container();
+const container = new Container();
 
 container.bind<MemberDataSource>(SERVICE_IDENTIFIER.MEMBER).to(SoptMemberDataSource);
 container.bind<Matcher>(SERVICE_IDENTIFIER.MATCHER).to(RandomMatcher);

@@ -20,7 +20,7 @@ export default class SoptDinnerManager implements DinnerManager {
     }
 
     organize() {
-        let sortedMember = this.matcher.execute(this.member);
+        const sortedMember = this.matcher.execute(this.member);
         console.log(`오늘의 저녁 식사 멤버는 ${sortedMember[0].name}, ${sortedMember[1].name}`);
     }
 }
