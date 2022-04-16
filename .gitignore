@@ -120,6 +120,9 @@ dist
 # DynamoDB Local files
 .dynamodb/
 
+# Swagger
+gen
+
 # TernJS port file
 .tern-port
 
