@@ -1,14 +1,14 @@
-import "reflect-metadata";
 import { Container } from "inversify";
-import Member from "../domain/entity/Member";
-import Matcher from "../domain/interface/Matcher";
-import RandomMatcher from "../domain/RandomMatcher";
+import "reflect-metadata";
 import SERVICE_IDENTIFIER from "../constants/identifier";
 import {
     MemberDataSource,
     SoptMemberDataSource
 } from "../data/MemberDataSource";
+import Member from "../domain/entity/Member";
 import DinnerManager from "../domain/interface/DinnerManager";
+import Matcher from "../domain/interface/Matcher";
+import RandomMatcher from "../domain/RandomMatcher";
 import SoptDinnerManager from "../domain/SoptDinnerManager";
 
 const container = new Container();
