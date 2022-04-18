@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "outDir": "./dist/development",
+        "lib": ["es6", "dom"],
+        "types": ["reflect-metadata"],
+        "strict": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "exclude": [
+        "node_modules",
+        "build",
+        "**/*.(spec|test).ts"
+    ]
+}
