@@ -277,4 +277,7 @@ fabric.properties
 
 ./src/week2/express/build/
 
+## IntelliJ Ultimate
+.idea
+
 # End of https://www.toptal.com/developers/gitignore/api/webstorm,node,visualstudiocode
