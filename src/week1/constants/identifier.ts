@@ -1,7 +1,7 @@
 const SERVICE_IDENTIFIER = {
-    MEMBER: Symbol.for("Member"),
+    DINNER: Symbol.for("Dinner"),
     MATCHER: Symbol.for("Matcher"),
-    DINNER: Symbol.for("Dinner")
+    MEMBER: Symbol.for("Member"),
 };
 
 export default SERVICE_IDENTIFIER;
